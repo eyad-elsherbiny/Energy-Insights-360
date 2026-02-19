@@ -6,6 +6,7 @@
 
 ### 📊 Dashboard Demo
 
+![Dashboard Preview](images/gif.gif)
 
 ### 🛠️ Methodology & Steps Taken
 
