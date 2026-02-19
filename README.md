@@ -1,1 +1,75 @@
-Energy Insights 360 ⚡💧Project OverviewEnergy Insights 360 is a comprehensive data visualization project designed to monitor, analyze, and optimize utility costs and consumption across various building locations. The dashboard provides a 360-degree view of energy usage, helping stakeholders identify trends, pinpoint high-cost drivers, and make data-driven decisions regarding resource management.📊 Dashboard Demo(Insert GIF of the dashboard interaction here)🛠️ Methodology & Steps TakenThe development of the Energy Insights 360 dashboard followed a structured data analysis workflow, transforming raw utility logs into actionable insights.Step 1: Data Acquisition & PreparationSource Data: Imported raw utility data containing transaction dates, building IDs, city locations, utility types (Water, Gas, Electricity, Steam), consumption units, and cost.Data Cleaning: Checked for missing values and ensured that numerical columns (Cost, Consumption) were formatted correctly for aggregation.Step 2: Data Aggregation & CalculationUsing Pivot Tables (as seen in Task__5.xlsx), the data was summarized to create the foundation for visualization. Key calculations included:Total Cost Aggregation: Summing costs to get a high-level financial view.Time-Series Analysis: Grouping data by Year and Month to track seasonality and trends (e.g., analyzing 2019 monthly variance).Category Segmentation:By Utility Type: Separating costs for Water, Gas, Electricity, and Steam to see which resource contributes most to the budget.By Geography: Grouping data by City (e.g., Phoenix) to compare regional performance.By Building: analyzing specific building IDs (e.g., B1001, B1010) to identify specific properties with high consumption.Step 3: Visualization & Dashboard DesignKPI Cards: Created headline metrics for Total Cost and Total Consumption to provide immediate context.Trend Lines: Visualized cost fluctuations over time to spot seasonal spikes (e.g., summer electricity usage vs. winter gas usage).Breakdown Charts:Cost by Utility Type (identifying distinct splits between Water (~3M) vs Gas (~1M)).Cost by Building (Pareto analysis of top-consuming buildings).Interactivity: Added Slicers to allow users to filter the entire view by Year, City, or specific Utility Type.📈 Key Insights & DetailsBased on the analysis of the underlying data:Utility Cost Distribution: The dashboard effectively separates distinct utility types, highlighting that Water and Gas are significant cost drivers alongside electricity.Building Performance: Specific buildings (such as B1001 and B1010) were isolated in the calculations, allowing facilities managers to investigate why these specific sites may have higher operational costs compared to others.Seasonal Trends: The monthly breakdown (Jan, Feb, etc.) reveals clear usage patterns, enabling better budget forecasting for future quarters.📂 Project StructureTask__5.xlsx: Contains the raw data and the Pivot Table calculation logic used to feed the charts.Dashboard: The final interactive interface (referenced in screenshots).🚀 Future ImprovementsIntegration of weather data to correlate temperature changes with energy spikes.Implementation of "Cost per Square Foot" metrics for normalized building comparisons.
+# Energy Insights 360 ⚡💧
+
+### Project Overview
+
+**Energy Insights 360** is a comprehensive data visualization project designed to monitor, analyze, and optimize utility costs and consumption across various building locations. The dashboard provides a 360-degree view of energy usage, helping stakeholders identify trends, pinpoint high-cost drivers, and make data-driven decisions regarding resource management.
+
+### 📊 Dashboard Demo
+
+
+### 🛠️ Methodology & Steps Taken
+
+The development of the **Energy Insights 360** dashboard followed a structured data analysis workflow, transforming raw utility logs into actionable insights.
+
+#### Step 1: Data Acquisition & Preparation
+
+- **Source Data:** Imported raw utility data containing transaction dates, building IDs, city locations, utility types (Water, Gas, Electricity, Steam), consumption units, and cost.
+    
+- **Data Cleaning:** Checked for missing values and ensured that numerical columns (Cost, Consumption) were formatted correctly for aggregation.
+    
+
+#### Step 2: Data Aggregation & Calculation
+
+Using Pivot Tables (as seen in `Task__5.xlsx`), the data was summarized to create the foundation for visualization. Key calculations included:
+
+- **Total Cost Aggregation:** Summing costs to get a high-level financial view.
+    
+- **Time-Series Analysis:** Grouping data by **Year** and **Month** to track seasonality and trends (e.g., analyzing 2019 monthly variance).
+    
+- **Category Segmentation:**
+    
+    - **By Utility Type:** Separating costs for Water, Gas, Electricity, and Steam to see which resource contributes most to the budget.
+        
+    - **By Geography:** Grouping data by City (e.g., Phoenix) to compare regional performance.
+        
+    - **By Building:** analyzing specific building IDs (e.g., B1001, B1010) to identify specific properties with high consumption.
+        
+
+#### Step 3: Visualization & Dashboard Design
+
+- **KPI Cards:** Created headline metrics for **Total Cost** and **Total Consumption** to provide immediate context.
+    
+- **Trend Lines:** Visualized cost fluctuations over time to spot seasonal spikes (e.g., summer electricity usage vs. winter gas usage).
+    
+- **Breakdown Charts:**
+    
+    - _Cost by Utility Type_ (identifying distinct splits between Water (~3M) vs Gas (~1M)).
+        
+    - _Cost by Building_ (Pareto analysis of top-consuming buildings).
+        
+- **Interactivity:** Added Slicers to allow users to filter the entire view by Year, City, or specific Utility Type.
+    
+
+### 📈 Key Insights & Details
+
+Based on the analysis of the underlying data:
+
+1. **Utility Cost Distribution:** The dashboard effectively separates distinct utility types, highlighting that **Water** and **Gas** are significant cost drivers alongside electricity.
+    
+2. **Building Performance:** Specific buildings (such as **B1001** and **B1010**) were isolated in the calculations, allowing facilities managers to investigate why these specific sites may have higher operational costs compared to others.
+    
+3. **Seasonal Trends:** The monthly breakdown (Jan, Feb, etc.) reveals clear usage patterns, enabling better budget forecasting for future quarters.
+    
+
+### 📂 Project Structure
+
+- `Task__5.xlsx`: Contains the raw data and the Pivot Table calculation logic used to feed the charts.
+    
+- `Dashboard`: The final interactive interface (referenced in screenshots).
+    
+
+### 🚀 Future Improvements
+
+- Integration of weather data to correlate temperature changes with energy spikes.
+    
+- Implementation of "Cost per Square Foot" metrics for normalized building comparisons.
